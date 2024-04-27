@@ -39,7 +39,7 @@ rm -rf ani-cli ```
 ### Использование {#usecase}
 1. images/find.png 
 2. images/choose.png
-3. images/final.png
+3. /images/final.png
 
 
 
