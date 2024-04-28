@@ -1,19 +1,21 @@
 # Ani Cli для Debian based 
 ![ICON](icon.jpg)
 ## Оглавление  
-- Что такое ani cli
-- Зависимости
-- Установка    
-    1. APT 
+- [Что такое ani cli](#whatis)
+- [Зависимости](#zavisimosti)
+- [Установка](#download)    
+    1. [APT](#apt) 
+    2. [GIT](#git)  
+- [Ипользование](#usecase)
 
-    2. GIT  
-- Ипользование
 
-<!-- vim-markdown-toc -->
 
-### Что такое ani cli {#whatis}
+### <a id="whatis"> Что такое ani cli </a>
+
 **Ani cli** - консольная команда, которая позволяет смотреть аниме в терминале. 
-### Зависимости 
+
+### <a id="zavisimosti">Зависимости</a> 
+
 | Утилита  | Описание                   |     |
 | -------- | -------------------------- | --- |
 | grep     | Поиск в файлах             |     |
@@ -26,18 +28,18 @@
 | fzf      | Пользовательский интерфейс |     |
 | ani-skip | Пропуск опенингов          |     |
 | patch    | Самообновление             |     |
-### Установка 
-1. APT 
+### <a id="download">Установка</a> 
+1. <a id="apt">APT</a> 
 ```bash
 sudo apt install ani-cli
 ```
-2. GIT
+2. <a id="git">GIT</a>
  ``` bash
 git clone "https://github.com/pystardust/ani-cli.git"
 sudo cp ani-cli/ani-cli /usr/local/bin
 rm -rf ani-cli 
 ```
-### Использование 
+### <a id="usecase">Использование</a> 
 1. ![Поиск](find.png) 
 2. ![Vibor](choose.png)
 3. ![FInal](final.png)
